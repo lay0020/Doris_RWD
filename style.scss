@@ -100,6 +100,11 @@ nav {
     }
 }
 
+// 選單
+#menu{
+    // 隱藏選單
+    display: none;
+}
 // RWD
 // 平板：大於等於 768 並且 小於等於 1199
 @media screen and (min-width: 768px) and (max-width: 1199px) {
