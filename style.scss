@@ -130,6 +130,14 @@ nav {
 
                 }
             }
+        // 滑入顯示選單
+        // nth-child(公式)
+        // an+b
+        // n+2 (n 從 0 開始增加)
+        &:hover a:nth-child(n+2){
+            display: block;
+            padding: 10px;
+        }
         }
     }
 

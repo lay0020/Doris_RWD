@@ -125,6 +125,10 @@ nav div a:hover {
   nav #menu a:nth-child(1) {
     display: block;
   }
+  nav #menu:hover a:nth-child(n+2) {
+    display: block;
+    padding: 10px;
+  }
   #picture {
     width: 750px;
     margin: 0 auto;
